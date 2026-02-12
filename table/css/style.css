@@ -1,0 +1,36 @@
+table,
+caption,
+thead,
+tbody,
+tr,
+td,
+td,
+th {
+  border: 1px solid #000;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+caption {
+  border-bottom: none;
+  font-weight: 600;
+}
+
+.week-1,
+.week-2 {
+  color: #ff000f;
+}
+
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5,
+.day-6,
+.day-7,
+.day-8,
+.day-9 {
+  color: #ff000f;
+}
