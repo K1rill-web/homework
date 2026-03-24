@@ -1,0 +1,139 @@
+.page {
+  font-family: var(--font-family);
+  font-family: var(--second-family);
+  font-weight: 400;
+}
+
+.page__body {
+  min-width: 375px;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(var(--container-width), 100% - var(--container-padding) * 2);
+  margin: 0 auto;
+}   
+
+.text-xs {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: right;
+  color: #000;
+}
+
+.title-md {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: right;
+  color: #000;
+}
+
+.text-xs-1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: center;
+  color: #000;
+}
+
+.title-md-1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.title-s {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #000;
+  padding-bottom: 9px;
+}
+
+.text-s {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #4b4b4b;
+  padding-right: 41px;
+  padding-bottom: 25px;
+}
+
+.text-s-1 {
+  padding-bottom: 9px;
+}
+
+.price {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000;
+}
+
+.text--xs {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 129%;
+  text-align: center;
+  color: #000;
+}
+
+.title--md {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 125%;
+  text-align: center;
+  color: #000;
+  padding-bottom: 30px;
+}
+
+.product-search__button {
+	font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000;
+  border: 1px solid #c5c5c5;
+  border-radius: 200px;
+  background: #fff;
+  padding: 12px 22px 13px;
+  transition: color var(--transition-time), background-color var(--transition-time);
+}
+
+.product-search__button:not(:disabled):active {
+  background-color: #40474d;
+}
+
+@media (any-hover: hover) {
+  .product-search__button:hover {
+    color: var(--accent-color-2);
+    background-color: var(--accent-color-3);
+  }
+}
+
+@media (width <= 465px) {
+  .title-md,
+  .title-md-1 {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 379px) {
+  .title-md,
+  .title-md-1 {
+    font-size: 15px;
+  }
+}

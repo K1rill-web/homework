@@ -1,0 +1,48 @@
+.menu__list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.menu__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--main-color);
+  transition: color var(--transition-time);
+}
+
+.toggle__down {
+  width: 12px;
+  height: 8px;
+  margin-left: 3px;
+}
+
+.toggle__down-icon {
+  width: 12px;
+  height: 8px;
+  stroke: var(--main-color);
+  fill: var(--main-color);
+}
+
+.header__actions-button {
+  stroke: var(--main-color);
+  width: 24px;
+  height: 24px;
+  color: var(--main-color);
+  transition: fill var(--transition-time), stroke var(--transition-time);
+}
+
+@media (any-hover: hover) {
+  .menu__link:hover {
+    color: var(--accent-color);
+  }
+
+  .header__actions-icon:hover,
+  .header__actions-button:hover {
+    fill: var(--accent-color);
+    stroke: var(--accent-color);
+  }
+}
