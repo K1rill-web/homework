@@ -1,0 +1,143 @@
+.search-offers {
+  padding-bottom: 61px;
+}
+
+.search-offers__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+  color: #000;
+  padding-bottom: 32px;
+}
+
+@media (width <= 768px) {
+  .search-offers__title {
+    font-size: 35px;
+  }
+
+}
+
+.search-offers__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.search-offers__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 18px;
+}
+
+.search-offers__form-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c5c5c5;
+  border-radius: 100px;
+  width: 650px;
+  height: 60px;
+  background: #f8f9fa;
+}
+
+.search-offers__form-link {
+  padding: 0 20px 0 17px;
+}
+
+.search-offers__form-search {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000;
+  display: flex;
+  border: 0 solid #c5c5c5;
+  border-radius: 100px;
+  width: 600px;
+  outline: none;
+  align-items: center;
+  background: #f8f9fa;
+}
+
+.search-offers__buttons-list--group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search-offers__buttons-list--up {
+  display: flex;
+  gap: 7px;
+}
+
+.search-offers__buttons-list--down {
+  display: flex;
+  gap: 7px;
+}
+
+@media (width <= 642px) {
+  .search-offers__form-search,
+  .search-offers-search {
+    width: 100%;
+  }
+}
+
+@media (width <= 622px) {
+  .search-offers__buttons-list--up,
+  .search-offers__buttons-list--down {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.phone__button {
+  width: 90px;
+  height: 42px;
+}
+
+.charge__button {
+  width: 98px;
+  height: 42px;
+}
+
+.gift__button {
+  width: 68px;
+  height: 42px;
+}
+
+.smart__button {
+  width: 142px;
+  height: 42px;
+}
+
+.keyboard__button {
+  width: 109px;
+  height: 42px;
+}
+
+.max__button {
+  width: 118px;
+  height: 42px;
+}
+
+.iphone__button {
+  width: 109px;
+  height: 42px;
+}
+
+.laptop__button {
+  width: 91px;
+  height: 42px;
+}
+
+.mobile__button {
+  width: 89px;
+  height: 42px;
+}

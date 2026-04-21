@@ -1,0 +1,23 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Readex Pro", sans-serif;
+	--main-color: #000;
+  --accent-color: #9fccbd;
+  --accent-color-2: #ffffff;
+  --accent-color-3: #000;
+  --bg-color: #dce5e2;
+  --bg-color-head: #fff;
+  --bg-color-dropdown: #fff;
+	--shadow-color: #00000040;
+  --overlay: linear-gradient(#1e1e1ee6, #000 1810%); 
+	--container-width: 1294px;
+  --container-padding: 15px;
+	--container-contact-width: 1100px;
+  --container-contact-padding: 15px;
+	--transition-time: 0.5s;
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}
