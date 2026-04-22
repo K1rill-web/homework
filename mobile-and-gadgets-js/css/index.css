@@ -1,0 +1,18 @@
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+
+@import "./blocks/header.css";
+@import "./blocks/menu.css";
+@import "./blocks/burger.css";
+@import "./blocks/hero.css";
+@import "./blocks/categories.css";
+@import "./blocks/sale.css";
+@import "./blocks/packs.css";
+@import "./blocks/design-spotlight.css";
+@import "./blocks/search-offers.css";
+@import "./blocks/product-contact.css";
+@import "./blocks/footer.css";
+@import "./blocks/modal.css";
+@import "./blocks/modal-sign.css";

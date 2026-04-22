@@ -1,0 +1,131 @@
+.footer {
+  padding: 45px 0 0;
+  margin: auto;
+  background: #f8f9fa;
+  border-top: 1px solid #dce5e2;
+}
+
+.footer__container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+  gap: 28px;
+  padding-bottom: 64px;
+  margin-bottom: 52px;
+  border-bottom: 1px solid #dce5e2;
+}
+
+@media (width <= 943px) {
+  .footer__container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer__text {
+		text-align: center;
+	}
+
+	.footer__menu-column--one,
+	.footer__menu-column--two,
+	.footer__menu-column--three,
+	.footer__menu-column--four {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+  }
+
+	.footer__menu-item {
+		text-align: center;
+	}
+}
+
+.footer__inner {
+	grid-column: 1 / 4 span;
+}
+
+.footer__menu-column--one {
+	grid-column: 5 / 2 span;
+}
+
+.footer__menu-column--two {
+	grid-column: 7 / 2 span;
+}
+
+.footer__menu-column--three {
+	grid-column: 9 / 2 span;
+}
+
+.footer__menu-column--four {
+	grid-column: 11 / 2 span;
+}
+
+.footer__logo-img {
+  padding-bottom: 18px;
+}
+
+.footer__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000;
+  max-width: 304px;
+}
+
+.footer__menu-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #000;
+  padding-bottom: 19px;
+}
+
+.footer__menu-item {
+  padding-bottom: 14px;
+}
+
+.footer__menu-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 127%;
+  color: #000;
+  transition: color var(--transition-time);
+}
+
+.footer__bottom-left {
+	display: flex;
+}
+
+.footer__bottom-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000;
+	padding-left: 28px;
+	padding-bottom: 4px;
+}
+
+.footer__bottom-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000;
+	padding-left: 8px;		
+}
+
+@media (any-hover: hover) {
+  .footer__menu-link:hover {
+    color: var(--accent-color);
+  }
+}
